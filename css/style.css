@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav img {
+    width: 8rem;
+    height: 3rem;
+}
+
+.navbar {
+    background-color: #122D33 !important;
+}
+
+.navbar a {
+    color: white !important;
+    font-size: small;
+}
+
+nav ul li:hover {
+    background-color: rgba(0, 128, 0, 0.337);
+    border-radius: 2rem;
+}
+
+.carousel-inner {
+    height: 85vh;
+}
+
+.hero__background {
+    background-image: url(https://images.unsplash.com/photo-1591735115730-4bf3a351cfe8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80);
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    margin-left: -0.75rem;
+    margin-bottom: -7rem;
+    margin-right: -3rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.container {
+    height: 100vh;
+    width: max-content;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hero__background h1 {
+    display: flex;
+    justify-items: center;
+}
+
+#titulo-portada h1 {
+    display: flex;
+    justify-content: center;
+
+}
+
+main h1 {
+    color: white;
+    font-weight: 800;
+    text-shadow: 1px 0px 0px black,
+        0px 1px 0px black,
+        -1px 0px 0px black,
+        0px -1px 0px black;
+        text-align: center;
+
+
+}
+
+
+.nav-toggle-icon button {
+    border: white;
+}
+
+form{
+    background-color: #122D33;
+    color: white;
+    size: 1rem;
+    border-radius: 2rem;
+    margin: 1rem;
+    height: 29rem;
+    text-align: center;
+    
+}
+
+.form-section{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.form-check{
+   align-content: center;
+    
+}
+
+.form-control{
+    height: fit-content;
+}
